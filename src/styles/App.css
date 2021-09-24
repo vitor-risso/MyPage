@@ -1,0 +1,55 @@
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.profilPicture {
+  border-radius: 50%;
+  width: 200px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #000;
+  width: auto;
+  font-size: x-large;
+}
+
+.icon {
+  padding: 4px;
+}
+
+.contactMe {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+@media screen and (min-width: 400px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
